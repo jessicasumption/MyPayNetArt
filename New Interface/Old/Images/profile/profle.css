@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul#profilenav {
+	list-style-type: none;
+	display:inline;
+	width: 147px;
+}
+#profilenav li {
+	display:inline;
+	height: 40px;
+	width: 147px;
+}
+
+#profilenav li a {
+	font-family: "Century Gothic";
+	text-decoration: none;
+	color: #030303;
+	line-height: 45px;
+	background-image: url(../proftabs.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	display: inline-block;
+	height: 40px;
+	width: 147px;
+	font-size: 12px;
+}
+#profilenav li a:active {
+	background-image: url(../proftabs.png);
+	background-position: 0px -40px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/* CSS Document */
+
+ul#mainmenu {
+	list-style-type: none;
+	width: 108px;
+}
+#mainmenu li a {
+	font-family: "Century Gothic";
+	text-decoration: none;
+	background-image: url(tabs.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 100px;
+	width: 108px;
+	color: #FFF;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+#mainmenu li a:active {
+	background-image: url(tabs.png);
+	background-position: 0px -110px;
+}
+
+body {
+	background-image:url(background.png);
+}
+#mainmenu li a img {
+	height: auto;
+	width: auto;
+	top: 0px;
+	right: 0px;
+	padding: 0px;
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+}

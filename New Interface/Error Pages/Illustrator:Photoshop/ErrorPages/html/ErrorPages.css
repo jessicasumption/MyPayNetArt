@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	background-repeat: repeat;
+	background-image:url(../Graphics/background.png);
+	margin: 0 auto;
+		
+}

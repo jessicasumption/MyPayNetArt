@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+
+body{
+}
+
+#textfieldContainer {
+	width:250px;
+	height: 32px;
+	background-image:url(tffocus.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+
+#tf {
+	background: url(tfnorm.png);
+	background-repeat: no-repeat;
+	border:none;
+	height: 30px;
+	width:250px;
+	outline:none;
+	background-color:transparent;
+	color:#000;
+	padding-right:7px;
+	padding-left:7px;
+
+}
+
+#TextFieldBox {
+	float:left; width:250px;
+}
+
+
+</style>
+
+<script type="text/javascript" language="javascript">
+function fieldSwap(image) {
+	var tf = document.getElementById('tf');
+	if (tf.value == "") {
+		tf.style.background = "url(images/"+image+") no-repeat";
+	}
+}
+
+</script>
+
+</head>
+
+<body>
+<div id="textfieldContainer">
+	<form id="myForm"  action="parser.php" method="post">
+    	<div id ="TextFieldBox">
+        <input type="text" id="tf" name="query" onfocus="fieldSwap('tffocus.png')" onblur="fieldSwap('tfnorm.png')">
+        </div>
+    </form>
+    </div>
+
+
+</body>
+</html>
